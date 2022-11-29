@@ -54,3 +54,5 @@ The Rose is a South Korean pop rock band formerly under J&Star Company. Through 
 
 ### Acknowledgements
 - I have received inspiration for this project from Pinterest
+
+
