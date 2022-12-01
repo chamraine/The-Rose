@@ -4,65 +4,87 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>The Rose - Home</title>
-<link href="style1.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="Resources/rose1.jpg">
+<link href="style.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 <script type="text/javascript" src="script.js" defer></script> 
 <script src="https://kit.fontawesome.com/e49fc2a0fa.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="merch">
 <!--navigation bar-->
-
-<nav class="navbar" style="position: absolute;">
-  <div class="navbar-links2" style="width: 100%;">
+<nav class="navbar">
+  <div class="navbar-links2">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">HEAL TOGETHER TOUR</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tour.html">HEAL TOGETHER TOUR</a></li>
     </ul>
   </div>
-  <div class="brand-title" style="text-align: center;"><img src="Resources/logo.png" style="width: 50%;" alt="" class="headerlogo"></div>
-  <a href="#" class="toggle-button"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a>
-  <div class="navbar-links" style="width: 100%;">
+  <div class="brand-title">
+    <img src="Resources/logo.png" alt="" class="headerlogomerch">
+  </div>
+  <a href="#" class="toggle-button"> 
+    <span class="bar"></span> 
+    <span class="bar"></span> 
+    <span class="bar"></span> 
+  </a>
+  <div class="navbar-linksM" style="width: 100%;">
     <ul>
-      <li><a href="#">HEAL Merch</a></li>
+      <li><a href="merch.html">HEAL Merch</a></li>
       <li><a href="#">About</a></li>
     </ul>
   </div>
 </nav>
-	<img src="Resources/Tour-mundial-de-The-Rose.jpg" alt="" width="100%">
 
-	<footer style="margin-top: 100px">
-  <div class="outer">
-    <div class="inner">
-      <h3>SHOPPING</h3>
+<!--merchandise-->
+<div class="merchlogo">
+<img src="Resources/merch-logo.png">
+</div>
+
+<div class="buttondiv">
+  <button type="button" href="https://therose-heal.myshopify.com/password" target="_blank" class="button buttons1">North America</button>
+  <button type="button" href="https://theroseworldwide.myshopify.com/password" target="_blank" class="button buttons2">Rest of World</button>
+</div>
+
+<div class="merchpic">
+  <img src="Resources/lol.png">
+</div>
+
+ 
+
+  <!--footer-->
+	<footer style="margin-top: 50px">
+    <div class="outer">
+      <div class="inner">
+        <h3>SHOPPING</h3>
+      </div>
+      <div class="inner">
+        <h3>NEWS</h3>
+      </div>
+      <div class="inner">
+        <h3>TERMS</h3>
+      </div>
+      <div class="inner">
+        <h3>DATA PRIVACY</h3>
+      </div>
+      <div class="inner">
+        <h3>SHIPPING</h3>
+      </div>
+      <div class="inner">
+        <h3>CONTACT</h3>
+      </div>
     </div>
-    <div class="inner">
-      <h3>NEWS</h3>
+    <div class="outer-2">
+      <div class="social-links"><a href="https://www.instagram.com/official_therose/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://twitter.com/TheRose_0803" target="_blank"><i class="fab fa-twitter"></i></a><a href="https://www.youtube.com/channel/UClcbcYLmTpDeuK1EFeqh5uA" target="_blank"><i class="fab fa-youtube"></i></a><a href="https://discord.com/invite/therose" target="_blank"><i class="fab fa-discord"></i></a><a href="https://www.tiktok.com/@official.therose" target="_blank"><i class="fab fa-tiktok"></i></a></div>
+      <div class="inner-2">
+        <h3>NEWSLETTER</h3>
+      </div>
+      <div class="email-box" style="margin-top: auto; margin-bottom: auto;"><i class="fa-regular fa-envelope" style="color: white;"></i>
+        <input class= "tbox" type="email" name = "" value = "" placeholder="Enter your email">
+        <button class="btn" type="button" name="button">Subscribe</button>
+      </div>
     </div>
-    <div class="inner">
-      <h3>TERMS</h3>
-    </div>
-    <div class="inner">
-      <h3>DATA PRIVACY</h3>
-    </div>
-    <div class="inner">
-      <h3>SHIPPING</h3>
-    </div>
-    <div class="inner">
-      <h3>CONTACT</h3>
-    </div>
-  </div>
-  <div class="outer-2">
-    <div class="social-links"><a href="https://www.instagram.com/official_therose/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://twitter.com/TheRose_0803" target="_blank"><i class="fab fa-twitter"></i></a><a href="https://www.youtube.com/channel/UClcbcYLmTpDeuK1EFeqh5uA" target="_blank"><i class="fab fa-youtube"></i></a><a href="https://discord.com/invite/therose" target="_blank"><i class="fab fa-discord"></i></a><a href="https://www.tiktok.com/@official.therose" target="_blank"><i class="fab fa-tiktok"></i></a></div>
-    <div class="inner-2">
-      <h3>NEWSLETTER</h3>
-    </div>
-    <div class="email-box" style="margin-top: auto; margin-bottom: auto;"><i class="fa-regular fa-envelope" style="color: white;"></i>
-      <input class= "tbox" type="email" name = "" value = "" placeholder="Enter your email">
-      <button class="btn" type="button" name="button">Subscribe</button>
-    </div>
-  </div>
-</footer>
-</body>
-</html>
+  </footer>
+  </body>
+  </html>
