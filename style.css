@@ -8,6 +8,8 @@ p {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
   }
 /*---------------LOGO----------------*/
 .logo {
@@ -50,18 +52,22 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-    position: absolute;
-    font-size: 17px;
+  position: absolute;
+  font-size: 17px;
 }
 
 .brand-title {
 	font-size: 25px;
 	margin: 10px;
-    text-align: center;
+  text-align: center;
 }
 
 .headerlogo{
     width: 50%;
+}
+
+.navbar-links {
+  width: 100%;
 }
 
 .navbar-links ul{
@@ -69,6 +75,21 @@ body {
 	padding: 0;
 	display: flex;
 	 float: right;
+}
+
+.navbar-links li a {
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+	display: block;
+}
+
+.navbar-links li {
+	list-style: none;
+}
+
+.navbar-links li:hover {
+	background-color: rgba(221,221,221, .5);
 }
 
 .navbar-links2 {
@@ -81,19 +102,8 @@ body {
 	display: flex;
 }
 
-.navbar-links li {
-	list-style: none;
-}
-
 .navbar-links2 li {
 	list-style: none;
-}
-
-.navbar-links li a {
-	text-decoration: none;
-	color: black;
-	padding: 15px;
-	display: block;
 }
 
 .navbar-links2 li a {
@@ -101,10 +111,6 @@ body {
 	color: white;
 	padding: 15px;
 	display: block;
-}
-
-.navbar-links li:hover {
-	background-color: rgba(221,221,221, .5);
 }
 
 .navbar-links2 li:hover {
@@ -120,7 +126,8 @@ body {
 	justify-content: space-between;
 	width: 30px;
 	height: 21px;
-
+  margin-top: auto;
+  margin-bottom:auto;
 }
 
 .toggle-button .bar{
@@ -134,6 +141,9 @@ body {
 .content-1 {
   color: black;
   font-family: "EB Garamond", serif;
+}
+#index{
+  background-color: white;
 }
 .heading {
   text-align: center;
@@ -192,8 +202,17 @@ video {
 }
 .bg-video {
   text-align: center;
+  padding-bottom: 45px;
+}
+
+.content {
+  background-color: white;
 }
 /* --------------------- FOOTER ------------------- */
+footer {
+  background-color: black;
+}
+
 .outer-2 {
   padding: 10px 40px;
   text-align: center;
@@ -202,6 +221,8 @@ video {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+  color: whitesmoke;
+  font-weight: 300;
 }
 .outer-2 h3 {
   max-width: 600px;
@@ -217,10 +238,10 @@ video {
   margin-bottom: auto;
 }
 .email-box i {
-  background: black;
+  background: whitesmoke;
   width: 40px;
   line-height: 40px;
-  color: white;
+  color: black;
 }
 
 .tbox, .btn {
@@ -236,15 +257,16 @@ video {
   padding: 0 10px;
 }
 .btn {
-  background: black;
-  color: white;
+  background: whitesmoke;
+  color: black;
   padding: 0 10px;
   text-transform: uppercase;
   cursor: pointer;
   font-family: 'EB Garamond', serif;
 }
 .outer {
-  color: black;
+  color: whitesmoke;
+  font-size: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 90%;
@@ -263,7 +285,7 @@ video {
   margin-bottom: auto;
 }
 .social-links i {
-  color: black;
+  color: whitesmoke;
   font-size: 25px;
   margin-right: 10px;
 }
@@ -300,7 +322,7 @@ video {
 	  .navbar-links {
 		  display: none;
 		  width: 100%;
-		  background-color: pink;
+		  background-color: black;
 		  
 	  }
 	.navbar {
@@ -328,6 +350,284 @@ video {
 	}
 }
 /*-----------------------------------------------TOUR-----------------------------------------------*/
+.navbar-linksT {
+  width: 100%;
+}
+
+.navbar-linksT ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	 float: right;
+}
+
+.navbar-linksT li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	display: block;
+}
+
+.navbar-linksT li {
+	list-style: none;
+}
+
+.navbar-linksT li:hover {
+	background-color: rgba(221,221,221, .5);
+}
+
+
 .background img{
     image-rendering: pixelated;
+    background-image: url("background.jpg");
 }
+
+.text-wrapper{
+  display: flex;
+  justify-content: flex-start;
+  background: none;
+  overflow:hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.top1 {
+  width: 70%;
+  height:60%;
+  position: absolute;
+}
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  white-space: nowrap;
+  padding: 0 6rem;
+  letter-spacing: 1px;
+  animation: move-rtl 6000ms linear infinite;
+  font-family:'Archivo Black', sans-serif;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/*TOUR DATES*/
+body {
+  background:#DDD;
+}
+div.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  overflow: hidden
+}
+.upcoming {
+  font-size: 45px;
+  text-transform: uppercase;
+  border-left: 14px solid black;
+  padding-left: 12px;
+  margin: 18px 8px;
+}
+.container .item {
+  width: 48%;
+  float: left;
+  padding: 0 20px;
+  background: #fff;
+  overflow: hidden;
+  margin: 10px
+}
+.container .item-right, .container .item-left {
+  float: left;
+  padding: 20px 
+}
+.container .item-right {
+  padding: 79px 50px;
+  margin-right: 20px;
+  width: 25%;
+  position: relative;
+  height: 286px
+}
+.container .item-right .up-border, .container .item-right .down-border {
+    padding: 14px 15px;
+    background-color: #ddd;
+    border-radius: 50%;
+    position: absolute
+}
+.container .item-right .up-border {
+  top: -8px;
+  right: -35px;
+}
+.container .item-right .down-border {
+  bottom: -13px;
+  right: -35px;
+}
+.container .item-right .num {
+  font-size: 60px;
+  text-align: center;
+  color: #111
+}
+.container .item-right .day, .container .item-left .event {
+  color: #555;
+  font-size: 20px;
+  margin-bottom: 9px;
+}
+.container .item-right .day {
+  text-align: center;
+  font-size: 25px;
+}
+.container .item-left {
+  width: 71%;
+  padding: 34px 0px 19px 46px;
+  border-left: 3px dotted #999;
+} 
+.container .item-left .title {
+  color: #111;
+  font-size: 34px;
+  margin-bottom: 12px
+}
+.container .item-left .sce {
+  margin-top: 5px;
+  display: block
+}
+.container .item-left .sce .icon, .container .item-left .sce p,
+.container .item-left .loc .icon, .container .item-left .loc p{
+    float: left;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 10px;
+}
+.container .item-left .sce .icon, .container .item-left .loc .icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #666
+}
+.container .item-left .loc {display: block}
+.fix {clear: both}
+.container .item .tickets, .buy {
+    color: #fff;
+    padding: 6px 14px;
+    float: right;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+}
+.container .item .tickets {background: #777}
+.container .item .buy {background: black}
+
+.linethrough {text-decoration: line-through}
+@media only screen and (max-width: 1150px) {
+  .container .item {
+    width: 100%;
+    margin-right: 20px
+  }
+  div.container {
+    margin: 0 20px auto
+  }
+}
+
+.footerpic {
+  max-width: auto;
+  height: 10%;
+}
+/*---------------------------------MERCH---------------------------------------*/
+#merch {
+  background-color: #555;
+}
+
+.navbar-linksM {
+  width: 100%;
+}
+
+.navbar-linksM ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	 float: right;
+}
+
+.navbar-linksM li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	display: block;
+}
+
+.navbar-linksM li {
+	list-style: none;
+}
+
+.navbar-linksM li:hover {
+	background-color: rgba(221,221,221, .5);
+}
+
+.merchlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: black solid 2px;
+}
+
+.headerlogomerch {
+  -webkit-filter: grayscale(1) invert(1); 
+  filter: grayscale(1) invert(1);
+}
+
+.headerlogomerch{
+  width: 50%;
+}
+
+.buttondiv {
+  padding: 10px 40px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+.buttons1 {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  color:white;
+}
+
+.buttons1:hover {
+  background-color: white;
+  color: black;
+}
+
+.buttons2 {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  color:white;
+}
+
+.buttons2:hover {
+  background-color: white;
+  color: black;
+}
+
+.merchpic {
+  width: 50%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
