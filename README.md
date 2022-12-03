@@ -153,6 +153,7 @@ The photos used in the website were obtained from The Rose Official Website, Goo
 4. About
 
 - Carousel: https://www.youtube.com/watch?v=JddX-FL7RUk
+- Members: https://www.youtube.com/watch?v=4q8AvrLrLAM
 - Information: https://en.wikipedia.org/wiki/The_Rose_(band), https://www.officialtherose.com/ &
   https://kprofiles.com/rose-members-profile/
 - Images: https://twitter.com/TheRose_0803
