@@ -125,8 +125,7 @@ The Rose is a South Korean pop rock band formerly under J&Star Company. Through 
 - The content used in this website were extracted from The Rose Official Website, Wikipedia and Kprofiles
 - Most of the content about the members were extracted from a infamous Kpop Profile Website, Kprofiles
 
-### Media
-
+### References
 The photos used in the website were obtained from The Rose Official Website, Google
 
 1. Homepage
@@ -147,7 +146,7 @@ The photos used in the website were obtained from The Rose Official Website, Goo
 
 - Marquee Animation: https://www.youtube.com/watch?v=OJ6byQDF9-Y
 - Images: https://www.officialtherose.com/
-- Information: https://www.bandsintown.com/ & https://www.officialtherose.com/
+- Information: https://www.bandsintown.com/ , https://www.officialtherose.com/ & https://codepen.io/amr-ibrahem/pen/wdrLjL
 - Footer: https://www.pinterest.com/pin/292241463331040924/
 
 4. About
